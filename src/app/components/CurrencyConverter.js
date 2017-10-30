@@ -84,7 +84,7 @@ export default class CurrencyConverter extends React.Component {
             <form action="#" className="mdl-grid">
               <div className="mdl-cell mdl-cell--4-col">
                 <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                  <input className="mdl-textfield__input"  value={this.state.moneyValue} onChange={this.changeMoneyValue.bind(this)}/>
+                  <input className="mdl-textfield__input" type="number" value={this.state.moneyValue} onChange={this.changeMoneyValue.bind(this)}/>
 
                 </div>
               </div>
