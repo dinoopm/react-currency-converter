@@ -1,0 +1,29 @@
+@import 'material';
+
+.currency-converter{
+	margin: 20px;
+
+	select{
+		height: 27px;
+	}
+}
+
+.converted-value-text{
+	font-weight: bold;
+	font-size: 30px;
+	color: #46B6AC;
+
+	span{
+		color: #ccc;
+	}
+}
+
+@media screen and (min-width: 760px){
+	.currency-converter{
+		width: 800px;
+	}
+	.mdl-layout__content{
+		min-height: 500px;
+	}
+
+}
