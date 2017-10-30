@@ -12,6 +12,12 @@ export default class CurrencyConverter extends React.Component {
       moneyValue: 1,
       toMoneyValue: ""
     }
+
+    this.convertCurrency(
+            this.state.moneyValue,
+            this.state.fromCurrency,
+            this.state.toCurrency
+          );
   }
 
   changeFromCurrency(event) {
@@ -69,13 +75,6 @@ export default class CurrencyConverter extends React.Component {
 
       <div>
       <main className="mdl-layout__content">
-          {
-          this.convertCurrency(
-            this.state.moneyValue,
-            this.state.fromCurrency,
-            this.state.toCurrency
-          )
-          }
           <div className="page-content">
           <div className="mdl-shadow--2dp currency-converter">
             <div className="mdl-grid">

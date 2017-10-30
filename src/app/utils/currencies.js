@@ -1,20 +1,20 @@
 export const CURRENCIES = [
 {
   "value": "USD",
-  "name": "US Dollar"
+  "name": "USD - US Dollar"
 },
 {
   "value": "CAD",
-  "name": "Canadian Dollar"
+  "name": "CAD - Canadian Dollar"
 }, {
   "value": "INR",
-  "name": "Indian Rupee"
+  "name": "INR - Indian Rupee"
 }, {
   "value": "GBP",
-  "name": "Great Britain Pound"
+  "name": "GBP - Great Britain Pound"
 },
 {
   "value": "EUR",
-  "name": "EUR"
+  "name": "EUR -  Euro"
 }
 ];
