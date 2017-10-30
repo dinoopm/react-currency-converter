@@ -1,2 +1,6 @@
 # react-currency-converter
-Simple currency Converter using Reactjs
+Simple Currency Converter using Reactjs
+
+npm install
+
+npm start
