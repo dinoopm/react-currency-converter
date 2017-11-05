@@ -57,7 +57,7 @@ export default class CurrencyConverter extends React.Component {
     axios.get(url).then(function(response){
       fx.base = "EUR";
       fx.rates = response.data.rates
-      var rate = fx(money).from(fromCurrency).to(toCurrency)
+      let rate = fx(money).from(fromCurrency).to(toCurrency)
         self.setState({
           toMoneyValue: rate.toFixed(2)
         });
